@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+
 body {
     background:black;
     color:rgba(255,255,255,0.8)
     padding:0;
     margin:0;
-    font-family:arial;
+    font-family:"IBM Plex Mono", arial;
 }
 
 
 #timer{
     color:rgba(255,255,255,0.8);
     text-align:center;
-    font-size:40vw;
+    font-size:30vw;
     margin-top:10vh;
     
 
@@ -30,5 +32,6 @@ body {
 
 .timesUp #timer {
     padding-top:18vh;
-    font-size:20vw;
+    font-size:15vw;
+    text-transform:uppercase;
 }

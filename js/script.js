@@ -32,6 +32,6 @@ function countdown( elementName, minutes, seconds )
 
 
 $(document).click(function(){
-    countdown( "timer", 10, 10 );
+    countdown( "timer", 0, 10 );
 })
 
