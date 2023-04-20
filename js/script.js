@@ -29,4 +29,4 @@ function countdown( elementName, minutes, seconds )
     updateTimer();
 }
 
-countdown( "timer", 0, 10 );
+countdown( "timer", 10, 10 );
