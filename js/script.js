@@ -16,6 +16,7 @@ function countdown( elementName, minutes, seconds )
             var audio = new Audio('alarm.wav');
             audio.play();
         } else {
+            document.body.classList.remove("timesUp");
             time = new Date( msLeft );
             hours = time.getUTCHours();
             mins = time.getUTCMinutes();
@@ -29,4 +30,8 @@ function countdown( elementName, minutes, seconds )
     updateTimer();
 }
 
-countdown( "timer", 10, 10 );
+
+$(document).click(function(){
+    countdown( "timer", 10, 10 );
+})
+
